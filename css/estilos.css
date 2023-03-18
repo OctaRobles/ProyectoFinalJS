@@ -1,0 +1,315 @@
+/*@font-face {
+    font-family: "heebo";
+    src: url(../assets/fonts/Heebo-Medium.ttf);
+}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/*estilados header*/
+.imgfondo{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/imgnav.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:inherit
+}
+.imglogo{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
+.fuentenav{
+    font-size: larger;
+}
+.fontnav{
+    font-family: "montserrat", sans-serif;
+    color: rgb(189, 189, 189);
+    font-size: x-large;
+    
+}
+/*estilados main*/
+.titindex1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    padding: 30px;
+    color: rgb(172, 118, 3);
+    font-family: "montserrat", sans-serif;
+}
+.imgfondopag{
+    background-image: url(../assets/img/fondopagina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titindex2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    color: rgb(172, 118, 3);
+    padding: 30px;
+    font-family: "montserrat", sans-serif;
+}
+.parrind{
+    display: flex;
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+    color: aliceblue;
+    font-family: "montserrat", sans-serif;
+}
+.anchorow{
+    width: 50vh;
+    height: 80vh;
+}
+.imgcar{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.parrind2{
+    display: flex;
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+    color: rgb(206, 206, 206);
+    justify-content: center;
+    font-family: "montserrat", sans-serif;    
+}
+.parrind3{
+    display: flex;
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+    color: rgb(138, 192, 240);
+    justify-content: center;
+    font-family: "montserrat", sans-serif;    
+}
+/*esilados main Mangas*/
+.scroll {
+    max-height: 100px;
+    overflow-y: auto;
+}
+/*estilados main Wiki*/
+.imgf{
+    display: flex;
+    background-image: url(../assets/img/imgw1.png);
+    padding-top: 100px;  
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fuentw{
+    font-size: 50px;
+    text-align:end;
+    font-family:"montserrat", sans-serif ;
+}
+.c1{
+    color: rgb(2, 2, 2);
+    font-family:"montserrat", sans-serif ;
+}
+.imgf2{
+    display: flex;
+    background-image: url(../assets/img/imgw2.png);
+    padding-top: 100px;  
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.c2{
+    color: rgb(0, 0, 0);
+    font-family:"montserrat", sans-serif ;
+}
+.imgf3{
+    display: flex;
+    background-image: url(../assets/img/imgw3.png);
+    padding-top: 100px;  
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.c3{
+    color: aliceblue;
+    font-family:"montserrat", sans-serif ;
+}
+.imgf4{
+    display: flex;
+    background-image: url(../assets/img/imgw4.png);
+    padding-top: 100px;  
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.c4{
+    color: rgb(3, 3, 3);
+}
+.imgf5{
+    display: flex;
+    background-image: url(../assets/img/imgw5.png); 
+    padding-top: 100px;  
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0%;
+}
+.c5{
+    color: rgb(255, 255, 255);
+}
+.imgf6{
+    display: flex;
+    background-image: url(../assets/img/imgw6.png);
+    padding-top: 100px;  
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.c6{
+    color: rgb(255, 255, 255);
+}
+.imgf7{
+    display: flex;
+    background-image: url(../assets/img/imgw7.png);
+    padding-top: 100px;  
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.c7{
+    color: rgb(255, 255, 255);
+}
+.imgf8{
+    display: flex;
+    background-image: url(../assets/img/imgw8.png);
+    padding-top: 100px;  
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.c8{
+    color: black;
+}
+.imgf9{
+    display: flex;
+    background-image: url(../assets/img/imgw9.png);
+    padding-top: 100px;  
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.c9{
+    color: rgb(0, 0, 0);
+}
+.imgf10{
+    display: flex;
+    background-image: url(../assets/img/imgw10.png);
+    padding-top: 100px;  
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.c10{
+    color: aliceblue;
+}
+.padw{
+    padding-top: 40px;
+}
+.clb{
+    background-color: black;
+    border-color: rgb(0, 0, 0);
+    font-family:"montserrat", sans-serif ;
+}
+.imgwi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+/*estilados main nosotros*/
+.mapn{
+    display: flex;
+    justify-content: center;
+}
+.titindex3{
+    display: flex;
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.parrind4{
+    display: flex;
+    font-size: 30px;
+    padding: 60px;
+    text-align: center;
+    color: rgb(206, 206, 206);
+    justify-content: center;
+    font-family: "montserrat", sans-serif; 
+}
+.cmt{
+    display: flex;
+    justify-content: center;
+    font-family:"montserrat", sans-serif ;
+}.cmt2{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family:"montserrat", sans-serif ;
+}
+/*estilados main Unite*/
+.parrind5{
+    display: flex;
+    font-size: 30px;
+    padding: 60px;
+    text-align: center;
+    color: rgb(161, 161, 161);
+    justify-content: center;
+    font-family: "montserrat", sans-serif; 
+}
+.parrind6{
+    color: rgb(161, 161, 161);
+    font-size: 30px;
+    font-family: "montserrat", sans-serif; 
+}
+.imgu{
+    display: flex;
+    padding: 20px;
+}
+/*tilados footer*/
+
+.contredes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.anclasf{
+    font-size: 50px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.infoter{
+    color: aliceblue;
+    padding: 30px;
+
+}
