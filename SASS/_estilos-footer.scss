@@ -1,0 +1,28 @@
+
+
+.imgfondo{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #016e78, #015b63, #00494f, #00383c, #00272a);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:inherit;
+    .contredes{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .anclasf{
+            font-size: 50px;
+            background-image: linear-gradient(to right top, #ffffff, #f0d2f6, #f99bd0, #ff5d8b, #eb122f);
+            background-clip: text;
+            text-decoration: none;
+            color: #c8ff0050;
+        }
+    }
+    .infoter{
+        color: rgb(118, 130, 141);
+        padding: 30px;
+    
+    }
+}

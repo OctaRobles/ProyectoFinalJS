@@ -1,0 +1,41 @@
+.imgfondopag{
+    .row{
+        .mapn{
+            display: flex;
+            justify-content: center;
+        }
+        .col-12{
+            .titindex3{
+                display: flex;
+                color: rgb(46, 143, 1);
+                text-align: center;
+                font-size: 40px;  
+            }
+            .parrind4{
+                display: flex;
+                font-size: 30px;
+                padding: 60px;
+                text-align: center;
+                color: rgb(0, 89, 255);
+                justify-content: center;
+                font-family: $font-pag;
+            }
+        }
+    }
+    .row{
+        .cmt{
+            display: flex;
+            justify-content: center;
+            font-family: $font-pag;
+        }
+        .cmt2{
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            font-family: $font-pag;
+        }
+    }
+
+}
+
+

@@ -1,0 +1,52 @@
+
+.parrind2{
+    display: flex;
+    font-size:map-get($map-fuente, font-size);
+    padding: 40px;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    justify-content: center;
+    font-family: $font-pag;    
+}
+.parrind3{
+    display: flex;
+    font-size:map-get($map-fuente, font-size);
+    padding: 40px;
+    text-align: center;
+    color: rgb(29, 116, 2);
+    justify-content: center;
+    font-family: $font-pag;    
+}
+.parrind{
+    display: flex;
+    font-size:map-get($map-fuente, font-size);
+    padding: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: $font-pag;
+}
+.titindex1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    padding: 30px;
+    color: $color-titulo;
+    font-family: $font-pag;
+}
+.imgfondopag{
+    background-image: linear-gradient(to left bottom, #dee5e5, #c8e6e6, #b0e6e7, #95e7e7, #74e7e7, #75e9ef, #78eaf7, #7cebff, #acedff, #d4f1ff, #f0f6ff, #ffffff);   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titindex2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    color: $color-titulo;
+    padding: 30px;
+    font-family: $font-pag;
+}

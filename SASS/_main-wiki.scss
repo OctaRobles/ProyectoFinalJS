@@ -1,0 +1,155 @@
+.row{
+    .imgf{
+        display: flex;
+        background-image: url(../assets/img/imgw1.png);
+        padding-top: 100px;  
+        position:relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        .fuentw{
+            font-size: 50px;
+            text-align:end;
+            font-family: $font-pag;
+        }
+        .c1{
+            color:$color-cardwiki1;
+            font-family: $font-pag;
+        }
+    }
+    .imgf2{
+        @extend .imgf;    
+        background-image: url(../assets/img/imgw2.png);
+        .fuentw{
+            @include font-size(50px,end,$font-pag);
+        }
+        .c2{
+            color:$color-cardwiki1;
+            font-family: $font-pag;
+        }
+    }
+    .padw{
+            padding-top: 40px;
+            .imgf3{
+                @extend .imgf;
+                background-image: url(../assets/img/imgw3.png);
+                .fuentw{
+                    font-size: 50px;
+                    text-align:end;
+                    font-family: $font-pag;
+                }
+                .c3{
+                    color: $color-cardwiki2;
+                    font-family: $font-pag;
+                }
+            }
+        .imgf4{
+            @extend .imgf;
+            background-image: url(../assets/img/imgw4.png);
+            .fuentw{
+                font-size: 50px;
+                text-align:end;
+                font-family: $font-pag;
+            }
+            .c4{
+                color:$color-cardwiki1;
+                font-family: $font-pag;
+            }
+        }
+        .imgf5{
+            @extend .imgf;
+            background-image: url(../assets/img/imgw5.png); 
+            background-position:0%;
+            .fuentw{
+                font-size: 50px;
+                text-align:end;
+                font-family: $font-pag;
+            }
+            .c5{
+                color: $color-cardwiki2;
+                font-family: $font-pag;
+            }
+        }
+        .imgf6{
+            @extend .imgf;
+            background-image: url(../assets/img/imgw6.png);
+            .fuentw{
+                font-size: 50px;
+                text-align:end;
+                font-family: $font-pag;
+            }
+            .c6{
+                color: $color-cardwiki2;
+                font-family: $font-pag;
+            }
+        }
+        .imgf7{
+            @extend .imgf;
+            background-image: url(../assets/img/imgw7.png);
+            .fuentw{
+                font-size: 50px;
+                text-align:end;
+                font-family: $font-pag;
+            }
+            .c7{
+                color: $color-cardwiki2;
+                font-family: $font-pag;
+            }
+        }
+        .imgf8{
+            @extend .imgf;
+            background-image: url(../assets/img/imgw8.png);
+            .fuentw{
+                font-size: 50px;
+                text-align:end;
+                font-family: $font-pag;
+            }
+            .c8{
+                color:$color-cardwiki1;
+                font-family: $font-pag;
+            }
+        }
+        .imgf9{
+            @extend .imgf;
+            background-image: url(../assets/img/imgw9.png);
+            .fuentw{
+                font-size: 50px;
+                text-align:end;
+                font-family: $font-pag;
+            }
+            .c9{
+                color:$color-cardwiki1;
+                font-family: $font-pag;
+            }
+        }
+        .imgf10{
+            @extend .imgf;
+            background-image: url(../assets/img/imgw10.png);
+            .fuentw{
+                font-size: 50px;
+                text-align:end;
+                font-family: $font-pag;
+            }
+            .c10{
+                color: $color-cardwiki2;
+                font-family: $font-pag;
+            }
+        }
+    }
+    
+}
+.container{
+        .imgwi{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+        }
+}
+
+.clb{
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    font-family: $font-pag;
+}
+

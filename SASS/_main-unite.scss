@@ -1,0 +1,25 @@
+.imgfondopag{
+    .container{     
+        .row{
+                .parrind5{
+                    display: flex;
+                    font-size: 30px;
+                    padding: 60px;
+                    text-align: center;
+                    color: rgb(15, 15, 15);
+                    justify-content: center;
+                    font-family: $font-pag;
+                }
+                .parrind6{
+                    color: rgb(0, 0, 0);
+                    font-size: 30px;
+                    font-family: $font-pag; 
+                }
+            }
+            .imgu{
+                display: flex;
+                padding: 20px;
+            }
+        }
+}
+
