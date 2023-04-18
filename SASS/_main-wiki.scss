@@ -21,7 +21,10 @@
         @extend .imgf;    
         background-image: url(../assets/img/imgw2.png);
         .fuentw{
-            @include font-size(50px,end,$font-pag);
+            font-size: 50px;
+            text-align:end;
+            font-family: $font-pag;
+            
         }
         .c2{
             color:$color-cardwiki1;
