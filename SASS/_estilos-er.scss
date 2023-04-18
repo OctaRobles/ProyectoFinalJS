@@ -1,0 +1,25 @@
+.titer{
+    font-size: 100px;
+    display: flex;
+    background-image: linear-gradient(to right top, #5a6939, #708c38, #86b132, #9bd726, #b0ff00); 
+    align-items: center;
+    position:relative;
+    padding-top: 200px;
+    padding-left: 100px;
+    background-clip: text;
+    color:rgba(107, 1, 102, 0);
+    font-family: $font-pag;
+}
+.parrind7{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: $font-pag;
+    align-items: center;
+    padding: 60px;
+    font-size: 51px;   
+}
+.imger{
+    display: flex;
+    width: 32vw;
+}
+
