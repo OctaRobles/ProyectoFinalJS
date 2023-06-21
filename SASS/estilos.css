@@ -111,6 +111,32 @@
   overflow-y: auto;
 }
 
+#carrito {
+  padding: 10px;
+  color: rgb(247, 247, 247);
+  align-items: center;
+}
+
+#carrito i {
+  font-size: 60px;
+  position: relative;
+}
+
+#carrito span {
+  width: 20px;
+  height: 20px;
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+}
+
+.precio {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  text-align: end;
+  font-family: "montserrat", sans-serif;
+}
+
 .row .imgf, .row .padw .imgf10, .row .padw .imgf9, .row .padw .imgf8, .row .padw .imgf7, .row .padw .imgf6, .row .padw .imgf5, .row .padw .imgf4, .row .padw .imgf3, .row .imgf2 {
   display: flex;
   background-image: url(../assets/img/imgw1.png);

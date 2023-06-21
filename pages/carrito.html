@@ -37,7 +37,11 @@
             </ul>
         </div>
     </header>
-    <main class="imgfondopag">
+    <main id="contenedorTarjetas" class="imgfondopag">
+        <div id="carrito">
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+            <span>0</span>
+        </div>
         <section class="mdb">
             <h1 class="titindex1 animate__animated animate__pulse animate__infinite">Carrito</h1>
             <div class="parrind3">
@@ -46,122 +50,142 @@
                 </p>
             </div>  
         <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
+            <div id="1" class="col-sm-6 mb-3 mb-sm-0">
                 <div class="card imgf">
                     <div class="card-body">
                         <h5 class="fuentw c1">Naruto</h5>
                         <p class="card-text"></p>
-                        <form id="manga01">
-                            <input type="number" name="cantidadMangas" value="1" min="1">
-                            <button type="submit" class="btn btn-dark clb">Comprar</button>
+                        <span class="precio"><b>Precio:</b>$4000</span>
+                        <form id="formCarrito1">
+                            <input type="hidden" value="1">
+                            <input type="number"  value="1" min="1">
+                            <button type="submit" class="btn btn-dark clb">Agregar al carrito</button>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div id="2" class="col-sm-6">
                 <div class="card imgf2">
                 <div class="card-body">
                 <h5 class="fuentw c2">One Piece</h5>
                     <p class="card-text"></p>
-                    <form id="manga02">
-                        <input type="number" name="cantidadMangas" value="1" min="1">
-                        <button type="submit"  class="btn btn-dark clb">Comprar</button>
+                    <span class="precio"><b>Precio:</b>$4000</span>
+                    <form id="formCarrito2">
+                        <input type="hidden" value="2">
+                        <input type="number"  value="1" min="1">
+                        <button type="submit"  class="btn btn-dark clb">Agregar al carrito</button>
                     </form>
                 </div>
                 </div>
             </div>
-            <div class="col-sm-6 padw">
+            <div id="3" class="col-sm-6 padw">
                 <div class="card imgf3">
                 <div class="card-body">
                 <h5 class="fuentw c3">Death Note</h5>
                     <p class="card-text"></p>
-                    <form id="manga03">
-                        <input type="number" name="cantidadMangas" value="1" min="1">
-                        <button type="submit"  class="btn btn-dark clb">Comprar</button>
+                    <span class="precio"><b>Precio:</b>$4000</span>
+                    <form id="formCarrito3">
+                        <input type="hidden" value="3">
+                        <input type="number"  value="1" min="1">
+                        <button type="submit"  class="btn btn-dark clb">Agregar al carrito</button>
                     </form>
                 </div>
                 </div>
             </div>
-            <div class="col-sm-6 padw">
+            <div id="4" class="col-sm-6 padw">
                 <div class="card imgf4">
                 <div class="card-body">
                 <h5 class="fuentw c4">Dragon Ball</h5>
                     <p class="card-text"></p>
-                    <form id="manga04">
-                        <input type="number" name="cantidadMangas" value="1" min="1">
-                        <button type="submit"  class="btn btn-dark clb">Comprar</button>
+                    <span class="precio"><b>Precio:</b>$4000</span>
+                    <form id="formCarrito4">
+                        <input type="hidden" value="4">
+                        <input type="number"  value="1" min="1">
+                        <button type="submit"  class="btn btn-dark clb">Agregar al carrito</button>
                     </form>
                 </div>
                 </div>
             </div>
-            <div class="col-sm-6 padw">
+            <div id="5" class="col-sm-6 padw">
                 <div class="card imgf5">
                 <div class="card-body">
                 <h5 class="fuentw c5">Demon Slayer</h5>
                     <p class="card-text"></p>
-                    <form id="manga05">
-                        <input type="number" name="cantidadMangas" value="1" min="1">
-                        <button type="submit"  class="btn btn-dark clb">Comprar</button>
+                    <span class="precio"><b>Precio:</b>$4000</span>
+                    <form id="formCarrito5">
+                        <input type="hidden" value="5">
+                        <input type="number"  value="1" min="1">
+                        <button type="submit"  class="btn btn-dark clb">Agregar al carrito</button>
                     </form>
                 </div>
                 </div>
             </div>
-            <div class="col-sm-6 padw">
+            <div id="6" class="col-sm-6 padw">
                 <div class="card imgf6">
                 <div class="card-body">
                 <h5 class="fuentw c6">Jujutsu Kaisen</h5>
                     <p class="card-text"></p>
-                    <form id="manga06">
-                        <input type="number" name="cantidadMangas" value="1" min="1">
-                        <button type="submit"  class="btn btn-dark clb">Comprar</button>
+                    <span class="precio"><b>Precio:</b>$4000</span>
+                    <form id="formCarrito6">
+                        <input type="hidden" value="6">
+                        <input type="number"  value="1" min="1">
+                        <button type="submit"  class="btn btn-dark clb">Agregar al carrito</button>
                     </form>
                 </div>
                 </div>
             </div>
-            <div class="col-sm-6 padw">
+            <div id="7" class="col-sm-6 padw">
                 <div class="card imgf7">
                 <div class="card-body">
                 <h5 class="fuentw c7">Evangelion</h5>
                     <p class="card-text"></p>
-                    <form id="manga07">
-                        <input type="number" name="cantidadMangas" value="1" min="1">
-                        <button type="submit"  class="btn btn-dark clb">Comprar</button>
+                    <span class="precio"><b>Precio:</b>$4000</span>
+                    <form id="formCarrito7">
+                        <input type="hidden" value="7">
+                        <input type="number"  value="1" min="1">
+                        <button type="submit"  class="btn btn-dark clb">Agregar al carrito</button>
                     </form>
                 </div>
                 </div>
             </div>
-            <div class="col-sm-6 padw">
+            <div id="8" class="col-sm-6 padw">
                 <div class="card imgf8">
                 <div class="card-body">
                 <h5 class="fuentw c8">Attack on Titan</h5>
                     <p class="card-text"></p>
-                    <form id="manga08">
-                        <input type="number" name="cantidadMangas" value="1" min="1">
-                        <button type="submit"  class="btn btn-dark clb">Comprar</button>
+                    <span class="precio"><b>Precio:</b>$4000</span>
+                    <form id="formCarrito8">
+                        <input type="hidden" value="8">
+                        <input type="number"  value="1" min="1">
+                        <button type="submit"  class="btn btn-dark clb">Agregar al carrito</button>
                     </form>
                 </div>
                 </div>
             </div>
-            <div class="col-sm-6 padw">
+            <div id="9" class="col-sm-6 padw">
                 <div class="card imgf9">
                 <div class="card-body">
                 <h5 class="fuentw c9">Tokyo Ghoul</h5>
                     <p class="card-text"></p>
-                    <form id="manga09">
-                        <input type="number" name="cantidadMangas" value="1" min="1">
-                        <button type="submit"  class="btn btn-dark clb">Comprar</button>
+                    <span class="precio"><b>Precio:</b>$4000</span>
+                    <form id="formCarrito9">
+                        <input type="hidden" value="9">
+                        <input type="number"  value="1" min="1">
+                        <button type="submit"  class="btn btn-dark clb">Agregar al carrito</button>
                     </form>
                 </div>
                 </div>
             </div>
-            <div class="col-sm-6 padw">
+            <div id="10" class="col-sm-6 padw">
                 <div class="card imgf10">
                 <div class="card-body">
                 <h5 class="fuentw c10">Fire Force</h5>
                     <p class="card-text"></p>
-                    <form id="manga10">
-                        <input type="number" name="cantidadMangas" value="1" min="1">
-                        <button type="submit"  class="btn btn-dark clb">Comprar</button>
+                    <span class="precio"><b>Precio:</b>$4000</span>
+                    <form id="formCarrito10">
+                        <input type="hidden" value="10">
+                        <input type="number"  value="1" min="1" max="stock">
+                        <button type="submit"  class="btn btn-dark clb">Agregar al carrito</button>
                     </form> 
                     
                 </div>

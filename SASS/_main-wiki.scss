@@ -1,3 +1,27 @@
+#carrito{
+    padding: 10px;
+    color: rgb(247, 247, 247);
+    align-items: center;
+}
+#carrito i {
+    font-size: 60px;
+    position: relative;
+}
+#carrito span {
+    
+    width: 20px;
+    height: 20px;
+    
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+}
+.precio{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align:end;
+    font-family: $font-pag;
+}
 .row{
     .imgf{
         display: flex;
